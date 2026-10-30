@@ -4,7 +4,7 @@
 
 Mandate connects to **[agentlefs.com production](https://agentlefs.com)** with your production AgentleFS account and Clerk sign-in. The desktop window opens **[mandate.agentlefs.com](https://mandate.agentlefs.com)**.
 
-**[Download the Apple Silicon Mac app](https://github.com/agentleFS/mandate-downloads/releases/tag/0.13.3-unsigned)** · M1 and later · DMG or ZIP
+**[Download the Apple Silicon Mac app](https://github.com/agentleFS/mandate-downloads/releases/tag/0.13.4-unsigned)** · M1 and later · DMG or ZIP
 
 ## Open this unsigned app on your Mac
 
@@ -18,3 +18,7 @@ This release is **not Developer ID signed or notarized**. It uses an ad-hoc sign
 [Apple's opening instructions](https://support.apple.com/en-us/102445).
 
 Each release includes **SHA256SUMS** to verify its downloads. Application source is maintained separately in a private repository. Apple signing and notarization setup will follow later.
+
+## Updates in the app
+
+Version 0.13.4 includes the AFS app icon and **Mandate → Check for Updates…**. Updates are downloaded and verified in the app; choose **Quit and Open Installer**, then copy the new app to Applications and reopen it. Install 0.13.4 manually once if you are upgrading from 0.13.3.
