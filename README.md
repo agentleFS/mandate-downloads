@@ -4,7 +4,7 @@
 
 Mandate connects to **[agentlefs.com production](https://agentlefs.com)** with your production AgentleFS account and Clerk sign-in. The desktop window opens **[mandate.agentlefs.com](https://mandate.agentlefs.com)**.
 
-**[Download the Apple Silicon Mac app](https://github.com/agentleFS/mandate-downloads/releases/tag/0.13.5-unsigned)** · M1 and later · DMG or ZIP
+**[Download the Apple Silicon Mac app](https://github.com/agentleFS/mandate-downloads/releases/tag/0.13.7-unsigned)** · M1 and later · DMG or ZIP
 
 ## Open this unsigned app on your Mac
 
@@ -21,8 +21,12 @@ Each release includes **SHA256SUMS** to verify its downloads. Application source
 
 ## Updates in the app
 
-Version 0.13.5 includes the AFS app icon and **Mandate → Check for Updates…**. Updates are downloaded and verified in the app; choose **Quit and Open Installer**, then copy the new app to Applications and reopen it. Install the latest version manually once if you are upgrading from 0.13.3.
+Version 0.13.7 includes the AFS app icon and **Mandate → Check for Updates…**. Updates are downloaded and verified in the app; choose **Quit and Open Installer**, then copy the new app to Applications and reopen it. Install the latest version manually once if you are upgrading from 0.13.3.
 
 ## Sign in with passkeys
 
-Mandate 0.13.5 opens AgentleFS sign-in in your default browser. Complete Google sign-in there using your browser's normal passkey, Touch ID or password-manager support. After the connection is verified, Mandate returns to Connections. If a sign-in was saved before restarting the app, start a fresh sign-in when prompted.
+Mandate opens AgentleFS sign-in in your default browser. Complete Google sign-in there using your browser's normal passkey, Touch ID or password-manager support. In 0.13.7, sign-in started in the desktop app brings Mandate back to the foreground after verification. The browser completion page offers **Return to Mandate app**; you can close that tab afterward. Sign-in started in the website returns to its **Connections** page. Failed sign-in provides a recovery action for the original experience. If a sign-in was saved before restarting the app, start a fresh sign-in when prompted.
+
+## Loading and fresh page state
+
+Sessions, Decisions and Connections show loading or refreshing feedback immediately. Returning to a page or session context fetches current data, keeps confirmed content visible during refresh, and preserves unsent drafts and selections. Failed reads show an error and recovery guidance instead of an empty page.
