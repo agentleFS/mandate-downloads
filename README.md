@@ -4,7 +4,7 @@
 
 Mandate connects to **[agentlefs.com production](https://agentlefs.com)** with your production AgentleFS account and Clerk sign-in. The desktop window opens **[mandate.agentlefs.com](https://mandate.agentlefs.com)**.
 
-**[Download the Apple Silicon Mac app](https://github.com/agentleFS/mandate-downloads/releases/tag/0.13.4-unsigned)** · M1 and later · DMG or ZIP
+**[Download the Apple Silicon Mac app](https://github.com/agentleFS/mandate-downloads/releases/tag/0.13.5-unsigned)** · M1 and later · DMG or ZIP
 
 ## Open this unsigned app on your Mac
 
@@ -21,4 +21,8 @@ Each release includes **SHA256SUMS** to verify its downloads. Application source
 
 ## Updates in the app
 
-Version 0.13.4 includes the AFS app icon and **Mandate → Check for Updates…**. Updates are downloaded and verified in the app; choose **Quit and Open Installer**, then copy the new app to Applications and reopen it. Install 0.13.4 manually once if you are upgrading from 0.13.3.
+Version 0.13.5 includes the AFS app icon and **Mandate → Check for Updates…**. Updates are downloaded and verified in the app; choose **Quit and Open Installer**, then copy the new app to Applications and reopen it. Install the latest version manually once if you are upgrading from 0.13.3.
+
+## Sign in with passkeys
+
+Mandate 0.13.5 opens AgentleFS sign-in in your default browser. Complete Google sign-in there using your browser's normal passkey, Touch ID or password-manager support. After the connection is verified, Mandate returns to Connections. If a sign-in was saved before restarting the app, start a fresh sign-in when prompted.
